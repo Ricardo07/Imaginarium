@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImageViewController.h
 //  Imaginarium
 //
 //  Created by Ricardo Batista on 1/19/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ImageViewController : UIViewController
+@property (strong, nonatomic) NSURL *imageURL;
 @end
